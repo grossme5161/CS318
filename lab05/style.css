@@ -1,0 +1,23 @@
+body {
+    background-color:rgb(55,118,255);
+    width=800px;
+}
+title {
+    text-decoration-color: rgb(69,1,39);
+}
+h2 {
+    text-decoration-color: rgb(156,3,88);
+}
+h3 {
+    text-decoration-color: rgb(34,112,22);
+}
+p {
+    text-decoration-color: rgb(0,0,0);
+}
+figure{
+    width=600px margin="auto";
+}
+figcaption {
+    font-style: italic;
+    text-decoration-color: darkgray;
+}
