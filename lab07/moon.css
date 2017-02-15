@@ -1,0 +1,12 @@
+body {
+    background-image: url(stars.jpg);
+    color:white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-image: url(moonz.png);
+    font-size: 20pt;
+}
+header {
+    text-align: center;
+}

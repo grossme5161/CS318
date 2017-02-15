@@ -1,0 +1,13 @@
+div {
+    margin-top:inherit;
+    text-align-last: right;
+    color:crimson;
+    font-size: 24pt;
+}
+
+body {
+   background-image:url(cow.jpg);
+    background-size: 200px;
+    text-align: right;
+    color: darkgoldenrod;
+}
