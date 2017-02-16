@@ -10,4 +10,6 @@ body {
     background-size: 200px;
     text-align: right;
     color: darkgoldenrod;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
