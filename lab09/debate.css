@@ -1,0 +1,23 @@
+.blurb {
+    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 10px 10px 10px grey;
+    border: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    font-family: 'Lato', sans-serif;
+    background-size: 200px, auto;
+}
+#left {
+    background-color: lightpink;
+    background-image: url(tangled.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#right {
+    background-color: dodgerblue;
+    background-image: url(george_washington.jpg);
+     background-repeat: no-repeat;
+    background-position: right;
+    margin-left: auto;
+}

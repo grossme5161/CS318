@@ -1,0 +1,31 @@
+.stamp {
+   box-sizing: border-box;
+border-style: dashed;
+    border-color: lightgreen;
+    border-width: 4px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow:10px 10px 10px;
+    background-position: top right, center;
+    background-size: 100px, 600px auto;
+    background-repeat: no-repeat, no-repeat;
+}
+
+body {
+    background-color: azure;
+}
+#ecuador {
+    background-image: url(ecuflag.gif), url(ecuador.jpg);
+}
+#greece {
+    background-image: url(greflag.gif), url(greece.png);
+}
+    
+#kenya {
+    background-image: url(kenflag.gif), url(kenya.jpg);
+}
+#jamaica {
+    background-image: url(jamflag.gif), url(jamaica.jpg);
+}
