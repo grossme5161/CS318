@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+       background-image: url(cork.jpg);
+    background-repeat: repeat; 
+    }
+.photo {
+    background-color: white;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 15px; 
+    box-shadow: -8px 10px 10px;
+}
+
+@font-face {
+  font-family: Marker;
+  src:url(font-diner_permanent-marker/PermanentMarker.ttf);
+}
+
+.animal {
+    width: 200px;
+    
+}
+.pin {
+    width: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sloth {
+transform: rotate(5deg);
+}
+#manatee {
+  transform: rotate(10deg);  
+}
+#raccoon {
+transform: rotate(0deg);
+}
+.label {
+    font-size: 20px;
+    font-family: Marker;
+    position: absolute;
+    left:auto;
+    right: 65px;
+}
