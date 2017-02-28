@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box
+}
+
+.name {
+    font-size: 24pt;
+    font-family: sans-serif;
+    color:orangered;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    left:55px;
+    bottom: -18px;
+}
+
+.photo {
+    display: inline-block;
+    border-radius:100%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 50px grey;
+    position: relative;
+}
+.photo:hover {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+    box-shadow: 10px 5px 30px black;
+    left: 5px;
+    top: 5px;
+}
+
+#trump {
+    background-image: url(https://media1.britannica.com/eb-media/31/149831-004-E1DF5942.jpg);
+    background-repeat: no-repeat;
+    background-size:200px;
+    margin-left: 10px;
+}
+#man1 {
+    background-image: url(https://i1.wp.com/thezog.info/wp-content/uploads/Larry-Weitzner.png?resize=300%2C300);
+    background-repeat: no-repeat;
+    background-size:200px;
+    margin-left: 40px;
+    margin-top:10px;
+}
+
+#man2{
+    background-image: url(http://www4.pictures.gi.zimbio.com/Jim+Petrus+Donald+Trump+Launches+New+Luxury+1_Tbq8kMbnwl.jpg);
+    background-repeat: no-repeat;
+    background-size:200px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#lady{
+    background-image: url(http://www.minday2016.com/wp-content/uploads/2016/04/CathyGlosser-042-2-296x300.jpg);
+    background-repeat: no-repeat;
+    background-size:200px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
