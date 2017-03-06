@@ -34,7 +34,7 @@ footer {
     padding: 15px;
     padding-left: 200px;
     font-family: fantasy;
-    clear:both;
+    float:right;
 }
 
 .pizza {
