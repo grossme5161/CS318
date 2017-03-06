@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body
 .wrapper {
     width: 600px;
@@ -14,9 +17,21 @@ header {
  padding: 15px;
  font-family: fantasy;
  font-size: 12pt;
- width:640px;
+ width:700px;
 }
 
+.floatleft {
+    float: left;
+    padding: 10px
+}
+.floatright {
+    float: right;
+    padding: 10px;
+}
+
+.menu {
+    width: 520px;
+}
 nav {
     background-color: rgb(200,166,40);
     float:left;
@@ -29,7 +44,7 @@ main {
   margin:0;
   padding: 15px;
   float:left;
-  width:450px;
+  width:550px;
 }
 
 main img {
@@ -41,7 +56,7 @@ footer {
     padding: 15px;
     padding-left: 200px;
     font-family: fantasy;
-    width: 450px;
+    width: 700px;
 }
 
 .pizza {
