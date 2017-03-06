@@ -1,7 +1,12 @@
-body {
+body
+.wrapper {
     width: 600px;
     margin: auto;
     box-shadow: 0px 0px 20px;
+     background-color: rgb(200,166,40);
+}
+.clear {
+    clear: both;
 }
 
 header {
@@ -9,20 +14,22 @@ header {
  padding: 15px;
  font-family: fantasy;
  font-size: 12pt;
+ width:640px;
 }
 
 nav {
     background-color: rgb(200,166,40);
     float:left;
     width:150px;
-    padding-bottom: 450px
+    padding-bottom: 600px
 }
 
 main {
   background-color:rgb(199,123,12);
-  margin-left: 150px;
+  margin:0;
   padding: 15px;
   float:left;
+  width:450px;
 }
 
 main img {
@@ -34,7 +41,7 @@ footer {
     padding: 15px;
     padding-left: 200px;
     font-family: fantasy;
-    float:right;
+    width: 450px;
 }
 
 .pizza {
@@ -42,8 +49,8 @@ footer {
     background-image: url(pizza.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    top: 9px;
-    right: 250px;
+    top: 15px;
+    right: 430px;
     width: 80px;
     height: 80px;
 }
@@ -58,7 +65,7 @@ ul {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(140%, -50%);
+    transform: translate(0%, -0%);
     font-size: 16pt;
     color: white;
     top:30px;
