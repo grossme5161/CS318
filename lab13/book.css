@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25,255,243);
+}
+header {
+    padding-left: 40px;
+    background-color: rgb(255,209,0);
+    margin: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+    padding-left: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(25,255,243);
+    margin: 0px;
+    padding: 10px;
+    float:left;
+    width: 18em;
+    padding-right: 0em;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: rgb(204,20,172);
+    margin: 0px;
+    padding: 10px;
+    left: 18em;
+    position: absolute;
+    font-family: serif;
+}
+
+.quote {
+    float: right;
+    width: 10em;
+    padding: 10px;
+    margin: 15px;
+    font-size: 16px;
+    background-color: white;
+    font-family:fantasy;
+}
+.poem {
+  white-space: pre-wrap;
+}
+
+@media (max-width: 28em) {
+    main {position: static;
+        float: none;}
+    li {display: inline;}
+    nav {width: 100%}
+    span {display: none;}
+    .quote {width: 100%;}
+}
