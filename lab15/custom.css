@@ -1,0 +1,38 @@
+table {
+    border-spacing: 50px 50px;
+    border-collapse:collapse;
+}
+    
+td {
+    padding: 20px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+td:hover {
+    padding: 20px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: limegreen;
+}
+
+.purple {
+    background-color: mediumvioletred;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+caption {
+    background-color: black;
+    color: white;
+}
