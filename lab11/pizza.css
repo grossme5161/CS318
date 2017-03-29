@@ -6,7 +6,7 @@ body
     width: 600px;
     margin: auto;
     box-shadow: 0px 0px 20px;
-     background-color: rgb(200,166,40);
+    background-color: rgb(200,166,40);
 }
 .clear {
     clear: both;
