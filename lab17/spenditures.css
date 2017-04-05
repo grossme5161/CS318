@@ -1,0 +1,110 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+table {
+    margin: auto;
+    padding-top: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+td:last-child {
+    text-align: right;
+}
+header {
+    color: white;
+    background-color: maroon;
+    padding: 1px;
+}
+
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+nav {
+    background-color: darkblue;
+    padding:1px;
+    border-top: 1px solid white;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.label {
+    border-right: 1px solid white;
+    padding: 10px;
+    list-style: none;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+.label:hover {
+    background-color: dimgray;
+}
+.label:hover .dropdown {
+    border: none;
+    padding: 10px;
+    background-color: dimgray;
+    cursor: pointer;
+    display:block;
+    box-shadow: 3px 3px 3px black;
+}
+
+.dropdown {
+    list-style: none;
+    display: none;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 0;
+    top:100%;
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding-right: 9px;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color:lightgrey;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+#lines {display: none;}
+#special {
+    right: 0;
+    left: auto;
+}
+
+@media (max-width: 40em) {
+    #lines { display:block; 
+    position:absolute;
+    border-left: 1px soild white;
+    font-size: 12pt;
+    bottom: auto;
+    top: 10px;
+    right: 20px;
+    }
+    nav {display: none;}
+    .dropdown:hover {display: none;}
+    }
