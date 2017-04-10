@@ -1,0 +1,39 @@
+body { 
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    display:inline-block;
+    background-color: lightgray;
+    padding: 50px;
+    font-size: 16pt;
+    border-radius: 3%;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+#send {
+    padding: 20px;
+    text-align: right;
+    background-color: blue;
+    color: white;
+    font-size: 18pt;
+}
+#textbox {
+    width: 300px;
+    height: 200px;
+
+}
+
+#box {
+    padding-right: 110px;
+}
+
+#box2 {
+ padding-right: 110px;
+}
+
+textarea {
+    font-size: 16pt;
+}
