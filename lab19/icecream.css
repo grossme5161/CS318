@@ -1,0 +1,50 @@
+
+header {
+    text-align: center;
+}
+
+label {
+    width: 150px;
+    float: left;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+form {
+    margin: auto;
+    background-color: skyblue;
+    width:400px;
+    height: 300px;
+    border-radius: 3%;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+#who {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#flavor {
+    width:210px;
+    margin-bottom: 15px;
+}
+
+#what {
+    width: 210px;
+    margin-bottom: 15px;
+}
+
+#sprinkles {
+    margin-bottom: 15px;
+}
+#messy {
+    width: 210px;
+    margin-bottom: 25px;
+}
+#mess {
+    
+}
