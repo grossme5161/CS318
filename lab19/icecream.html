@@ -2,9 +2,30 @@
 <html>
 <head><link rel=stylesheet href="icecream.css"></head>
 <body>
+    
     <form action="https://formspree.io/grossme5161@uwec.edu"
       method="POST">
-        
+        <header><h1>Chillax Order Form</h1></header>
+        <label>Who are you?</label><input type="text" name="who" id="who">
+        <br>
+        <label>What flavor?</label>
+        <select name="flavor" id="flavor">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vanilla">Vanilla</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Mint Chocolate Chip">Mint Chocolate Chip</option>
+        </select>
+        <br>
+        <label>In what?</label><select name="what" id="what">
+        <option value="waffle">Waffle</option>
+        <option value="sugar">Sugar</option>
+        <option value="dish">Dish</option>
+        </select>
+        <br>
+        <label>Sprinkles?</label><input type="checkbox" name="sprinkles" id="sprinkles">
+        <br>
+        <label>How messy are you?</label><input type="range" min="0" max="3" id="messy">
+        <br>
         <input id="email" type="submit" value="Send">
     </form>
     

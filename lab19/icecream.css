@@ -1,4 +1,3 @@
-
 header {
     text-align: center;
 }
@@ -20,7 +19,6 @@ form {
     font-family: sans-serif;
     padding-top: 20px;
     padding-left: 50px;
-
 }
 
 #who {
@@ -47,4 +45,7 @@ form {
 }
 #mess {
     
+}
+#email {
+    margin-left: 150px;
 }
