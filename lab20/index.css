@@ -1,0 +1,68 @@
+form {
+    background-color: purple;
+    width: 500px;
+    color: yellow;
+    margin: auto;
+    text-align: center;
+    font-size: 28pt;
+    border: 10pt solid black;
+}
+
+label {
+    font-family: cursive;
+    font-size: 20pt;
+}
+
+.box {
+    width: 300px
+}
+#r1 {
+    margin-left:30px;
+}
+#r2 {
+margin-left:25px; 
+}
+#r3 {
+margin-left:5px;
+}
+#r4 {
+    margin-left:30px;
+}
+#r5 {
+    margin-left:25px;
+}
+#r6 {
+    margin-left:5px;
+}
+#r7 {
+    margin-left:30px;
+}
+#r8 {
+    margin-left:25px;
+}
+#r9 {
+    margin-left:5px;
+}
+
+.n1:hover {
+   color:red;
+}
+.n2:hover {
+   color:orange;
+}
+.n3:hover {
+   color:deeppink;
+}
+.n4:hover {
+   color:cornflowerblue;
+}
+.n5:hover {
+   color:violet;
+}
+.n6:hover {
+   color:greenyellow;
+}
+.n7:hover {
+   color:darkviolet;
+}
+

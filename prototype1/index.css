@@ -9,6 +9,7 @@ header {
     color: white;
     font-size: 17pt;
     font-family:fantasy;
+    padding-bottom: 1px;
 }
 
 nav {
@@ -17,6 +18,7 @@ nav {
     padding-bottom: 200px;
     padding-right: 20px; 
     font-family: sans-serif;
+    padding-top: 10px;
 }
 
 li {
@@ -54,23 +56,13 @@ p {
     margin-left: 280px;
 }
 
-#page1 {
-    background-image: url(hphouses.jpg);
-    background-repeat: no-repeat;
-}
-
-#page2 {
-    background-image: url(smom1.jpg);
-    background-repeat: no-repeat;
-}
-
-#page3 {
-    background-image: url(smom2.jpg);
-    background-repeat: no-repeat;
-}
-
 input[type="radio"]:checked + .page {
   display: block;
+}
+
+.picture {
+    float: right;
+    margin-right: 0;
 }
 
 #controls {
