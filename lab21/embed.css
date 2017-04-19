@@ -1,0 +1,18 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.twitter-tweet {
+    margin: auto;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+}
