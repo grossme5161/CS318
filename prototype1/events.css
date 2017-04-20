@@ -20,12 +20,12 @@ nav {
     font-family: sans-serif;
     padding-top: 10px; 
 }
-.about {
+div.events {
     background-color: beige;
     margin-left: 260px;
     width: 410px;
     font-size: 20pt;
-    font-family: sans-serif;   
+    font-family: sans-serif; 
 }
 
 li {
@@ -60,11 +60,6 @@ p {
     margin-left:300px;
     margin-top: 30px;
     text-align: center;
-}
-
-.exec {
-    margin-left: 600px;
-    margin-left: 600px;
 }
 
 @media (max-width: 28em) {
