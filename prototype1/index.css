@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
 }
+
 header {
     text-align: center;
     background-color: black;
@@ -10,21 +11,28 @@ header {
     font-size: 17pt;
     font-family:fantasy;
     padding-bottom: 1px;
+    height: 200px
 }
 
 nav {
     background-color: black;
-    width: 190px;
-    padding-bottom: 200px;
+    width: 200px;
+    padding-bottom: 500px;
     padding-right: 20px; 
     font-family: sans-serif;
     padding-top: 10px;
+    display: block;
+    position: relative;
+    color: white;
 }
 
 li {
   list-style: none;
-  padding: 10px;
-  width: 200px;
+  padding-right: 20px;
+  position: relative;
+  right: 10px;
+  width: 180px;
+  padding-top: 15px;
 }
 
 a {
@@ -36,53 +44,39 @@ a {
 
 a:hover {
     color:yellow;
-    font-size: 14pt;
-    padding: 10px;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 p {
-    width: 71%;
-    margin-left: 280px;
+    width: 680px;
+    margin-left: 300px;
     background-color: beige;
     font-family: sans-serif;
-}
-.page {
-    width: 70%;
-    height: 60%;
-    background-size:100%;
-    position:absolute;
-    display: none;
-    margin-left: 280px;
+    position: relative;
+    display: block;
+    bottom:750px;
+    font-size: 14pt;
 }
 
-input[type="radio"]:checked + .page {
-  display: block;
+img {
+   margin: auto;
+   display: block;
+   position: relative;
+   top: 50px;
+    
 }
-
-.picture {
-    float: right;
-    margin-right: 0;
-}
-
-#controls {
-    left: 56%;
-    transform: translate(-50%,0);
-    user-select: none;
-    position: absolute;
-    margin-top:  
-}
-
-input {
-    display:none;
+#slides {
+    position: relative;
+    bottom:800px;
+    left: 100px;
+    width: 700px;
 }
 
 @media (max-width: 28em) {
     header {position: static;
         float: none; font-size: 12pt;}
     li {display: inline; padding: 5px;}
-    nav {width: 100%; padding:1px;}
-    #page1, #page2, #page3 {display: none;}
-    p {display: inline;}
-    #controls {display: none;
+    nav {width: 100%; padding:1px;margin-top: 160px}
+    p {display: none;}
+    img {display: inline; width: 100%; left: 10px; top: 50px; margin-top: 50px
     }

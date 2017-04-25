@@ -12,7 +12,6 @@ header {
     font-family:fantasy;
     padding-bottom: 1px;
 }
-
 nav {
     background-color: black;
     width: 190px;
@@ -22,19 +21,6 @@ nav {
     padding-top: 10px;
     float: left;
 }
-
-#mission {
-    width: 600px;
-    font-size: 18pt;
-}
-.about {
-    background-color: beige;
-    margin-left: 260px;
-    width: 410px;
-    font-size: 20pt;
-    font-family: sans-serif;   
-}
-
 li {
   list-style: none;
   padding-right: 20px;
@@ -43,7 +29,6 @@ li {
   width: 160px;
   padding-top: 15px;
 }
-
 a {
     color: white;
     font-size: 14pt;
@@ -56,49 +41,43 @@ a:hover {
     cursor: pointer;
 }
 
-p {
-    background-color: beige;
-    font-family: fantasy;
-    font-size: 28pt;
-    padding: 10px;
-    width: 600px;
-    margin-left:300px;
-    margin-top: 30px;
-    text-align: center;
+form {
+   background-color: beige;
+   width: 400px;
+   height: 250px;
+   position: relative;
+   left: 230px;
+   top: 50px;
+   display: inline-block;
+   padding: 30px;
 }
 
-.exec {
-    position: relative;
-    left: 400px;
-    bottom: 10px;
+#name {
+    width: 310px;
 }
 
-.ben {
-    position: relative;
-    left: 600px;
-    bottom: 30px;
+#email {
+    width: 310px;
 }
-
-.cass {
-    position: relative;
-    left: 420px;
-    bottom: 30px;
+#comment {
+    width: 285px;
+    padding-bottom: 100px;
+    padding-right: 100px;
 }
-.chey {
+#subject{
+    width: 300px;
+}
+#submit {
     position: relative;
-    left: 510px;
-    bottom: 30px;
+    top: 30px;
+    left: 170px;  
 }
 
 @media (max-width: 28em) {
-   header {position: static;
+    header {position: static;
         float: none; font-size: 12pt;}
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
-    img {display: none;}
-    .people { display: inline; width: 10px;
-    }
-    p {margin-left: 0; width: 100%; padding:0px;}
-    .about {
-        font-size: 14pt; position: relative; left: 10px; margin-left: 10px;margin-left:10px;}
+    p {display: inline;}
+    form {position: relative; left: 0; 
     }
