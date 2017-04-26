@@ -57,6 +57,9 @@ img {
    position: relative;
    top: 50px;}
 
+#media {
+    display: none;
+}
 #slides {
     position: relative;
     bottom:800px;
@@ -65,9 +68,9 @@ img {
 
 @media (max-width: 28em) {
     header {position: static;
-        float: none; font-size: 12pt;}
+        float: none; font-size: 12pt; padding-bottom: 10px;}
     li {display: inline; padding: 5px;}
-    nav {width: 100%; padding:1px;margin-top: 160px}
-    p {display: none;}
-    img {display: inline; width: 100%; left: 10px; top: 50px; margin-top: 50px
-    }
+    nav {width: 100%; padding:1px;margin-top: 10px}
+    div {display: none;}
+    img {display: inline; width: 400px;}
+}

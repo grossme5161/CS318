@@ -81,9 +81,10 @@ p {
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
     img {display: none;}
-    .people { display: inline; width: 10px;
-    }
+    .people { display: inline; width: 10px;}
     p {margin-left: 0; width: 100%; padding:0px;}
+    #mission {width: 400px;
+    height: 200px;}
     .about {
-        font-size: 14pt; position: relative; left: 10px; margin-left: 10px;margin-left:10px;}
+        font-size: 14pt; position: relative; left: 10px;margin-left:10px;}
     }

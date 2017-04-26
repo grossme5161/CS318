@@ -66,6 +66,7 @@ p {
         float: none; font-size: 12pt;}
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
-    .events {display: inline;}
+    .events {position: relative; right: 250px; bottom: 30px; width: 350px;}
     p{margin-left: 0; width: 100%; padding:0px;}
+    img {width: 300px;}
     }

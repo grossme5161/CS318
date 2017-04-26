@@ -61,14 +61,14 @@ form {
     width: 310px;
     margin-bottom:5px}
 
+#subject{
+    width: 300px;
+    margin-bottom:5px}
+
 #comment {
     width: 285px;
     padding-bottom: 100px;
     padding-right: 100px;}
-
-#subject{
-    width: 300px;
-    margin-bottom:5px}
 
 #submit {
     position: relative;
@@ -81,5 +81,10 @@ form {
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
     p {display: inline;}
-    form {position: relative; left: 0; 
+    form {position: relative; left: 7px; width: 330px;}
+    #comment {
+        padding-right: 50px;}
+    #submit {
+        top: 10px;
     }
+}
