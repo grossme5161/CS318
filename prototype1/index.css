@@ -1,18 +1,16 @@
 body {
-    background-image: url(harrypotterbkgnd.jpg);
+    background-image: url(images/harrypotterbkgnd.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-}
+    background-size:cover;}
 
 header {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 17pt;
-    font-family:fantasy;
+    font-family: 'UnifrakturCook', cursive;
     padding-bottom: 1px;
-    height: 200px
-}
+    height: 200px}
 
 nav {
     background-color: black;
@@ -23,8 +21,7 @@ nav {
     padding-top: 10px;
     display: block;
     position: relative;
-    color: white;
-}
+    color: white;}
 
 li {
   list-style: none;
@@ -32,20 +29,17 @@ li {
   position: relative;
   right: 10px;
   width: 180px;
-  padding-top: 15px;
-}
+  padding-top: 15px;}
 
 a {
     color: white;
     font-size: 14pt;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:yellow;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 p {
     width: 680px;
@@ -55,22 +49,19 @@ p {
     position: relative;
     display: block;
     bottom:750px;
-    font-size: 14pt;
-}
+    font-size: 14pt;}
 
 img {
    margin: auto;
    display: block;
    position: relative;
-   top: 50px;
-    
-}
+   top: 50px;}
+
 #slides {
     position: relative;
     bottom:800px;
     left: 100px;
-    width: 700px;
-}
+    width: 700px;}
 
 @media (max-width: 28em) {
     header {position: static;

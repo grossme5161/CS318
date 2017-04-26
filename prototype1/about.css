@@ -1,17 +1,16 @@
 body {
-    background-image: url(harrypotterbkgnd.jpg);
+    background-image: url(images/harrypotterbkgnd.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin: 0;
-}
+    margin: 0;}
+
 header {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 17pt;
     font-family:fantasy;
-    padding-bottom: 1px;
-}
+    padding-bottom: 1px;}
 
 nav {
     background-color: black;
@@ -20,20 +19,18 @@ nav {
     padding-right: 20px; 
     font-family: sans-serif;
     padding-top: 10px;
-    float: left;
-}
+    float: left;}
 
 #mission {
     width: 600px;
-    font-size: 18pt;
-}
+    font-size: 18pt;}
+
 .about {
     background-color: beige;
     margin-left: 260px;
     width: 410px;
     font-size: 20pt;
-    font-family: sans-serif;   
-}
+    font-family: sans-serif;}
 
 li {
   list-style: none;
@@ -41,20 +38,17 @@ li {
   position: relative;
   right: 10px;
   width: 160px;
-  padding-top: 15px;
-}
+  padding-top: 15px;}
 
 a {
     color: white;
     font-size: 14pt;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:yellow;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 p {
     background-color: beige;
@@ -64,31 +58,22 @@ p {
     width: 600px;
     margin-left:300px;
     margin-top: 30px;
-    text-align: center;
-}
-
-.exec {
-    position: relative;
-    left: 400px;
-    bottom: 10px;
-}
+    text-align: center;}
 
 .ben {
     position: relative;
     left: 600px;
-    bottom: 30px;
-}
+    bottom: 30px;}
 
 .cass {
     position: relative;
     left: 420px;
-    bottom: 30px;
-}
+    bottom: 30px;}
+
 .chey {
     position: relative;
     left: 510px;
-    bottom: 30px;
-}
+    bottom: 30px;}
 
 @media (max-width: 28em) {
    header {position: static;

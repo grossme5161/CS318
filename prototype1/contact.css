@@ -1,17 +1,17 @@
 body {
-    background-image: url(harrypotterbkgnd.jpg);
+    background-image: url(images/harrypotterbkgnd.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin: 0;
-}
+    margin: 0;}
+
 header {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 17pt;
     font-family:fantasy;
-    padding-bottom: 1px;
-}
+    padding-bottom: 1px;}
+
 nav {
     background-color: black;
     width: 190px;
@@ -19,59 +19,61 @@ nav {
     padding-right: 20px; 
     font-family: sans-serif;
     padding-top: 10px;
-    float: left;
-}
+    float: left;}
+
 li {
   list-style: none;
   padding-right: 20px;
   position: relative;
   right: 10px;
   width: 160px;
-  padding-top: 15px;
-}
+  padding-top: 15px;}
+
 a {
     color: white;
     font-size: 14pt;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:yellow;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 form {
    background-color: beige;
    width: 400px;
-   height: 250px;
+   height: 300px;
    position: relative;
    left: 230px;
    top: 50px;
    display: inline-block;
-   padding: 30px;
-}
+   padding: 30px;}
+
+#contact {
+    margin-top: 0;
+    text-align: center;}
 
 #name {
     width: 310px;
-}
+    margin-bottom:5px}
 
 #email {
     width: 310px;
-}
+    margin-bottom:5px}
+
 #comment {
     width: 285px;
     padding-bottom: 100px;
-    padding-right: 100px;
-}
+    padding-right: 100px;}
+
 #subject{
     width: 300px;
-}
+    margin-bottom:5px}
+
 #submit {
     position: relative;
     top: 30px;
-    left: 170px;  
-}
+    left: 170px;}
 
 @media (max-width: 28em) {
     header {position: static;

@@ -1,17 +1,16 @@
 body {
-    background-image: url(harrypotterbkgnd.jpg);
+    background-image: url(images/harrypotterbkgnd.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin: 0;
-}
+    margin: 0;}
+
 header {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 17pt;
     font-family:fantasy;
-    padding-bottom: 1px;
-}
+    padding-bottom: 1px;}
 
 nav {
     background-color: black;
@@ -19,8 +18,7 @@ nav {
     padding-bottom: 500px;
     padding-right: 20px; 
     font-family: sans-serif;
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 
 li {
   list-style: none;
@@ -28,41 +26,59 @@ li {
   position: relative;
   right: 10px;
   width: 160px;
-  padding-top: 15px;
-}
+  padding-top: 15px;}
 
 a {
     color: white;
     font-size: 14pt;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:yellow;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 div {
     float: right;
     margin-top: -300px;
-    margin-left: 70px;
+    margin-left: 70px;}
+
+#wizard {
+   background-color: beige;
+   position: relative;
+   bottom: 750px;
+   left: 380px;
+   padding: 10px;
+   width: 560px;
 }
 
-#title {
-    position: relative;
-    background-color: beige;
-    bottom: 150px;
-}
 #clip {
     position: relative;
-    right: 100px;
-    bottom: 100px;
-}    
+    right: 150px;
+    bottom: 450px;}    
 
 #trio {
     position: relative;
-    top: 200px;
+    bottom: 150px;
+    right:150px;}
+
+#wiki {
+    position: relative;
+    left: 420px;
+    bottom: 150px;}
+
+#spells {
+    background-color: beige;
+    position: relative;
+    bottom: 110px;
+    color: blue;
+    left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#spells:hover {
+    background-color: yellow;
 }
 
 @media (max-width: 28em) {

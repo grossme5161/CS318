@@ -1,17 +1,21 @@
+#quiz {
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+}
 body {
-    background-image: url(harrypotterbkgnd.jpg);
+    background-image: url(images/harrypotterbkgnd.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin: 0;
-}
+    margin: 0;}
+
 header {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 17pt;
     font-family:fantasy;
-    padding-bottom: 1px;
-}
+    padding-bottom: 1px;}
 
 nav {
     background-color: black;
@@ -19,8 +23,7 @@ nav {
     padding-bottom: 200px;
     padding-right: 20px; 
     font-family: sans-serif;
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 
 li {
   list-style: none;
@@ -28,31 +31,28 @@ li {
   position: relative;
   right: 10px;
   width: 160px;
-  padding-top: 15px;
-}
+  padding-top: 15px;}
 
 a {
     color: white;
     font-size: 14pt;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:yellow;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 .potter {
     margin-left: 250px;
     margin-top: -250px;
     background-color: beige;
     font-size: 16pt;
-    width: 500px;   
-}
+    width: 500px;}
+
 #pottermore {
-    color: blue;
-}
+    color: blue;}
+
 @media (max-width: 28em) {
    header {position: static;
         float: none; font-size: 12pt;}
