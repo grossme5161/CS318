@@ -59,13 +59,13 @@ div {
 
 #trio {
     position: relative;
-    bottom: 150px;
-    right:150px;}
+    bottom:50px;
+left: 200px;}
 
 #wiki {
     position: relative;
     left: 420px;
-    bottom: 150px;}
+    bottom: 10px;}
 
 #spells {
     background-color: beige;

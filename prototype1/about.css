@@ -34,7 +34,7 @@ nav {
 
 li {
   list-style: none;
-  padding-right: 20px;
+  padding-right: 50px;
   position: relative;
   right: 10px;
   width: 160px;
@@ -60,20 +60,16 @@ p {
     margin-top: 30px;
     text-align: center;}
 
-.ben {
-    position: relative;
-    left: 600px;
-    bottom: 30px;}
-
-.cass {
-    position: relative;
-    left: 420px;
-    bottom: 30px;}
-
 .chey {
     position: relative;
     left: 510px;
     bottom: 30px;}
+
+.jacob {
+  position: relative;
+    left: 675px;
+    bottom: 30px;  
+}
 
 @media (max-width: 28em) {
    header {position: static;
