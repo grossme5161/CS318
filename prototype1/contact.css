@@ -41,32 +41,37 @@ a:hover {
 
 form {
    background-color: beige;
-   width: 400px;
-   height: 300px;
+   width: 500px;
+   height: 400px;
    position: relative;
    left: 230px;
    top: 50px;
    display: inline-block;
-   padding: 30px;}
+   padding: 30px;
+padding-left: 100px;
+ border-color: black;
+    border-style: dotted;
+    border-width: 5px;}
 
 #contact {
     margin-top: 0;
-    text-align: center;}
+    text-align: center;
+font-size: 40pt;}
 
 #name {
-    width: 310px;
+    width: 400px;
     margin-bottom:5px}
 
 #email {
-    width: 310px;
+    width: 400px;
     margin-bottom:5px}
 
 #subject{
-    width: 300px;
+    width: 390px;
     margin-bottom:5px}
 
 #comment {
-    width: 285px;
+    width: 350px;
     padding-bottom: 100px;
     padding-right: 100px;}
 

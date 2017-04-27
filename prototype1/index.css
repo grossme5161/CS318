@@ -63,7 +63,7 @@ img {
 #slides {
     position: relative;
     bottom:800px;
-    left: 300px;
+    left: 100px;
     width: 700px;}
 
 @media (max-width: 45em) {
