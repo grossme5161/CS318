@@ -42,13 +42,13 @@ a:hover {
     cursor: pointer;}
 
 p {
-    width: 650px;
+    width: 640px;
     background-color: beige;
     font-family: sans-serif;
     position: relative;
     display: block;
     bottom:750px;
-    left: 300px;
+    left: 350px;
     font-size: 14pt;}
 
 img {
