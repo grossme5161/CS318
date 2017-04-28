@@ -8,7 +8,7 @@ header {
     background-color: black;
     color: white;
     font-size: 17pt;
-    font-family: 'UnifrakturCook', cursive;
+    font-family:fantasy;
     padding-bottom: 1px;
     height: 200px}
 
@@ -42,13 +42,13 @@ a:hover {
     cursor: pointer;}
 
 p {
-    width: 680px;
+    width: 650px;
     background-color: beige;
     font-family: sans-serif;
     position: relative;
     display: block;
     bottom:750px;
-    left: 400px;
+    left: 250px;
     font-size: 14pt;}
 
 img {
