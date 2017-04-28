@@ -47,7 +47,7 @@ div {
    background-color: beige;
    position: relative;
    bottom: 450px;
-   right: 100px;
+   right: 250px;
    padding: 15px;
    width: 560px;
 }
@@ -61,9 +61,10 @@ div {
     background-color: beige;
     position: relative;
     top: 20px;
+    right: 200px;
     color: black;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 font-size: 20pt;}
 
 #spells:hover {
