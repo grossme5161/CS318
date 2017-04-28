@@ -46,39 +46,39 @@ div {
 #wizard {
    background-color: beige;
    position: relative;
-   bottom: 750px;
-   left: 380px;
-   padding: 10px;
+   bottom: 450px;
+   left: 80px;
+   padding: 15px;
    width: 560px;
 }
-
-#clip {
-    position: relative;
-    right: 150px;
-    bottom: 450px;}    
-
-#trio {
-    position: relative;
-    bottom:50px;
-left: 200px;}
 
 #wiki {
     position: relative;
     left: 420px;
-    bottom: 10px;}
+    bottom: 620px;}
 
 #spells {
     background-color: beige;
     position: relative;
-    bottom: 110px;
+    top: 20px;
     color: blue;
-    left: 0px;
+    left: 250px;
     padding-left: 100px;
     padding-right: 100px;
-}
+font-size: 20pt;}
 
 #spells:hover {
-    background-color: yellow;
+    background-color: yellow;}
+
+#memes {
+    background-color: beige;
+    color:black;
+    font-size: 20pt;
+    position: relative;
+    bottom: 480px;}
+#memes:hover {
+    color: white;
+    background-color: black;
 }
 
 @media (max-width: 28em) {
@@ -86,9 +86,6 @@ left: 200px;}
         float: none; font-size: 12pt;}
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
-    #clip {position: relative; top: 220px; right: 300px; width:100px;}
-    #trio {position: relative; top: 600px; right: 180px; width:50px;}
     #wiki {display: none;}
-    #spells {position: relative; top: 600px; left: 50px;
-    }
+    #spells {position: relative; top: 600px; left: 50px;}
 }
