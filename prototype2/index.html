@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head><link rel=stylesheet href=index.css></head>
+    
+<body>
+    
+    <header><h1>Welcome to UW-Eau Claire's Student Ministry of Magic!</h1><h2>Meetings are Thursdays at 7 p.m. in Hibbard 304</h2></header>
+        
+    <nav>
+      <ul>
+        <li class="link"><a link href="index.html">Home</a></li>
+        <li><a link href="about.html">About</a></li>
+        <li><a link href="events.html">Events</a></li>
+        <li><a link href="pottermore.html">Pottermore</a></li>
+        <li><a link href="wizardfacts.html">Wizarding World</a></li>
+        <li><a link href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+    <div class="w3-content w3-display-container" id="slides"> 
+    <img class="mySlides" src="images/smom.png" width="600px" height="450px">
+    <img class="mySlides" src="images/smom1.jpg" width="600px" height="450px">
+    <img class="mySlides" src="images/smom2.jpg" width="550px" height="450px">
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    
+    <img id="media" src="images/hphouses.jpg">
+    
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+    showDivs(slideIndex +=n);}
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides")
+    if (n > x.length) (slideIndex = 1)
+    if (n < 1) (slideIndex = x.length)
+    for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+    }
+</script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        
+    <p>Come join us if you have a love for the Harry Potter novels, movies, or both! We are looking forward to this new semester with some supermegafoxyawesomehot events and volunteering opportunities, like movie marathons, HP craft nights, a book drive, the annual Yule Ball and others!</p>
+        
+</body>
+</html>

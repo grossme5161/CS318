@@ -1,0 +1,86 @@
+body {
+    background-image: url(images/Hogwarts%20Castle%20Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 17pt;
+    font-family:fantasy;
+    padding-bottom: 1px;}
+
+nav {
+    background-color: black;
+    width: 190px;
+    padding-bottom: 500px;
+    padding-right: 20px; 
+    font-family: sans-serif;
+    padding-top: 10px;
+    float: left;}
+
+#mission {
+    width: 600px;
+    font-size: 18pt;}
+
+.about {
+    background-color: beige;
+    margin-left: 260px;
+    width: 410px;
+    font-size: 20pt;
+    font-family: sans-serif;}
+
+li {
+  list-style: none;
+  padding-right: 50px;
+  position: relative;
+  right: 10px;
+  width: 160px;
+  padding-top: 15px;}
+
+a {
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    text-decoration: none;}
+
+a:hover {
+    color:yellow;
+    cursor: pointer;}
+
+p {
+    background-color: beige;
+    font-family: fantasy;
+    font-size: 28pt;
+    padding: 10px;
+    width: 600px;
+    margin-left:300px;
+    margin-top: 30px;
+    text-align: center;}
+
+.chey {
+    position: relative;
+    left: 510px;
+    bottom: 30px;}
+
+.jacob {
+  position: relative;
+    left: 675px;
+    bottom: 30px;  
+}
+
+@media (max-width: 28em) {
+   header {position: static;
+        float: none; font-size: 12pt;}
+    li {display: inline; padding: 5px;}
+    nav {width: 100%; padding:1px;}
+    img {display: none;}
+    .people { display: inline; width: 10px;}
+    p {margin-left: 0; width: 100%; padding:0px;}
+    #mission {width: 400px;
+    height: 200px;}
+    .about {
+        font-size: 14pt; position: relative; left: 10px;margin-left:10px;}
+    }
