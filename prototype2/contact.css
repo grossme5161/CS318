@@ -86,10 +86,13 @@ font-size: 40pt;}
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
     p {display: inline;}
-    form {position: relative; left: 7px; width: 330px;}
+    form {position: relative; left: 7px; width: 340px; padding-left: 10px;}
     #comment {
-        padding-right: 50px;}
+        padding-right: 10px;}
     #submit {
-        top: 10px;
-    }
+        top: 10px;}
+    #contact { font-size: 28pt;}
+    #name {width: 330px;}
+    #email {width: 330px;}
+    #subject {width: 330px;}
 }
