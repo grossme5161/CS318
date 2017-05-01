@@ -1,0 +1,40 @@
+body {
+    background-image:url(index.css)
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 17pt;
+    font-family:fantasy;
+    padding-bottom: 1px;}
+
+nav {
+    background-color: black;
+    width: 190px;
+    padding-bottom: 500px;
+    padding-right: 20px; 
+    font-family: sans-serif;
+    padding-top: 10px;
+    float: left;}
+
+li {
+  list-style: none;
+  padding-right: 20px;
+  position: relative;
+  right: 10px;
+  width: 160px;
+  padding-top: 15px;}
+
+a {
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    text-decoration: none;}
+
+a:hover {
+    color:yellow;
+    cursor: pointer;}

@@ -1,0 +1,32 @@
+p {
+    width: 640px;
+    background-color: beige;
+    font-family: sans-serif;
+    position: relative;
+    display: block;
+    bottom:750px;
+    left: 420px;
+    font-size: 14pt;}
+
+img {
+   margin: auto;
+   display: block;
+   position: relative;
+   top: 50px;}
+
+#media {
+    display: none;
+}
+#slides {
+    position: relative;
+    bottom:800px;
+    left: 100px;
+    width: 700px;}
+
+@media (max-width: 45em) {
+    header {position: static;
+        float: none; font-size: 12pt; padding-bottom: 10px;}
+    li {display: inline; padding: 5px;}
+    nav {width: 100%; padding:1px;margin-top:10px;}
+    div {display: none;}
+    #media { display: block; width: 410px;}}
