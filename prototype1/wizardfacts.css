@@ -89,4 +89,5 @@ color: white;}
     nav {width: 100%; padding:1px;}
     #wiki {display: none;}
     #spells {position: relative; top: 600px; left: 50px;}
+    #memes {display: none;}
 }
