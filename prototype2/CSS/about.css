@@ -1,13 +1,16 @@
 #mission {
     width: 600px;
-    font-size: 18pt;}
+    font-size: 18pt;
+}
 
 .about {
     background-color: beige;
     margin-left: 260px;
     width: 410px;
     font-size: 20pt;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+    display: block;
+}
 
 p {
     background-color: beige;
@@ -17,12 +20,14 @@ p {
     width: 600px;
     margin-left:300px;
     margin-top: 30px;
-    text-align: center;}
+    text-align: center;
+}
 
 .chey {
     position: relative;
     left: 510px;
-    bottom: 30px;}
+    bottom: 30px;
+}
 
 .jacob {
   position: relative;
@@ -32,10 +37,14 @@ p {
 
 @media (max-width: 45em) {
    header {position: static;
-        float: none; font-size: 12pt;}
-    li {display: inline; padding: 5px;}
-    nav {width: 100%; padding:1px;}
-    img {display: none;}
+        float: none; font-size: 12pt;
+    }
+    li {display: inline; padding: 5px;
+    }
+    nav {width: 100%; padding:1px;
+    }
+    img {display: none;
+    }
     .people { display: inline; width: 10px;}
     p {margin-left: 0; width: 100%; padding:0px;}
     #mission {width: 400px;
