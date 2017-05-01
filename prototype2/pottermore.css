@@ -71,7 +71,7 @@ img {
     left: 300px;
 }
 
-@media (max-width: 28em) {
+@media (max-width: 45em) {
    header {position: static;
         float: none; font-size: 12pt;}
     li {display: inline; padding: 5px;}

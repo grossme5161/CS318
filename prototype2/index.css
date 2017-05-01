@@ -70,7 +70,7 @@ img {
     header {position: static;
         float: none; font-size: 12pt; padding-bottom: 10px;}
     li {display: inline; padding: 5px;}
-    nav {width: 100%; padding:1px;margin-top: 10px}
+    nav {width: 100%; padding:1px;margin-top:10px;}
     div {display: none;}
     #media { display: block; width: 410px;}
 }
