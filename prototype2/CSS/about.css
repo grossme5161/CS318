@@ -48,7 +48,7 @@ p {
     .people { display: inline; width: 10px;}
     p {margin-left: 0; width: 100%; padding:0px;}
     #mission {width: 400px;
-    height: 200px;}
+        height: 200px; position: relative; left: 10px;}
     .about {
         font-size: 14pt; position: relative; left: 10px;margin-left:10px;}
     }

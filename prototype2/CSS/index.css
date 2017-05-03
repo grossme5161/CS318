@@ -1,11 +1,11 @@
 p {
-    width: 640px;
+    width: 600px;
     background-color: beige;
     font-family: sans-serif;
     position: relative;
     display: block;
-    bottom:750px;
-    left: 300px;
+    bottom:50px;
+    left: 200px;
     font-size: 14pt;}
 
 img {
@@ -23,7 +23,7 @@ img {
     height: 50px;
     position: relative;
     bottom: 200px;
-    left: 100px;
+    left: 150px;
 }
     
 #rightbutton {

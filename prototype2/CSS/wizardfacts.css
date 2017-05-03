@@ -48,5 +48,8 @@ color: white;}
     nav {width: 100%; padding:1px;}
     #wiki {display: none;}
     #spells {position: relative; top: 300px; left: 260px;}
+    #memes {
+        position: relative; top: 170px; left: 75px;
+    }
     body {background-size:auto;}
 }
