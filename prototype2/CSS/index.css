@@ -5,8 +5,9 @@ p {
     position: relative;
     display: block;
     bottom:50px;
-    left: 200px;
-    font-size: 14pt;}
+    left: 260px;
+    font-size: 14pt;
+}
 
 img {
    margin: auto;
@@ -33,8 +34,7 @@ img {
     bottom: 200px;
     left: 780px;
 }
-    
-}
+
 #slides {
     position: relative;
     bottom:800px;
