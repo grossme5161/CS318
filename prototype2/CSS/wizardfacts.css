@@ -13,7 +13,7 @@ div {
 
 #wiki {
     position: relative;
-    left: 40px;
+    left: 300px;
     top: 300px;}
 
 #spells {
@@ -38,7 +38,7 @@ color: white;
     font-size: 20pt;
     position: relative;
     bottom: 200px;
-    right: 200px;
+    right: 230px;
 }
 
 #memes:hover {
