@@ -1,7 +1,8 @@
 div {
     float: right;
     margin-top: -300px;
-    margin-left: 70px;}
+    margin-left: 70px;
+}
 
 #wizard {
    background-color: beige;
@@ -9,12 +10,14 @@ div {
    bottom: 450px;
    right: 250px;
    padding: 15px;
-   width: 560px;}
+   width: 560px;
+}
 
 #wiki {
     position: relative;
     left: 300px;
-    top: 300px;}
+    top: 300px;
+}
 
 #spells {
     background-color: beige;

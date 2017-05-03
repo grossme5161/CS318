@@ -13,7 +13,8 @@ img {
    margin: auto;
    display: block;
    position: relative;
-   top: 50px;}
+   top: 50px;
+}
 
 #media {
     display: none;
@@ -39,7 +40,8 @@ img {
     position: relative;
     bottom:800px;
     left: 250px;
-    width: 700px;}
+    width: 700px;
+}
 
 @media (max-width: 45em) {
     header {position: static;
@@ -47,4 +49,5 @@ img {
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;margin-top:10px;}
     div {display: none;}
-    #media { display: block; width: 410px;}}
+    #media { display: block; width: 410px;}
+}

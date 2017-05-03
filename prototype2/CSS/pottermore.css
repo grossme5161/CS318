@@ -1,7 +1,8 @@
 #quiz {
     position: relative;
     bottom: 400px;
-    left: 350px;}
+    left: 350px;
+}
 
 .potter {
     position: relative;
@@ -13,20 +14,24 @@
     font-family: sans-serif;
     border-color: black;
     border-style: dotted;
-    border-width: 5px;}
+    border-width: 5px;
+}
 
 .pottermore {
     color: blue;
     font-size: 32pt;
-    font-family: fantasy;}
+    font-family: fantasy;
+}
 
 #pottermore:hover {
-    color: green;}
+    color: green;
+}
 
 img {
     position: relative;
     left: 150px;
-    top: 40px;}
+    top: 40px;
+}
 
 @media (max-width: 45em) {
    header {position: static;
