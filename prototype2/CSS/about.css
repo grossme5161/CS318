@@ -46,9 +46,9 @@ p {
     img {display: none;
     }
     .people { display: inline; width: 10px;}
-    p {margin-left: 0; width: 100%; padding:0px;}
-    #mission {width: 400px;
-        height: 200px; position: relative; left: 10px;}
+    p {margin-left: 0; width: 400px; padding:0px; position: relative; top: 20px;}
+    #mission {width: 360px; position: relative; left: 10px; top: 30px; margin-top: 80px;}
+    
     .about {
         font-size: 14pt; position: relative; left: 10px;margin-left:10px;}
     }
