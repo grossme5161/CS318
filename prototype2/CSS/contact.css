@@ -45,7 +45,7 @@ font-size: 40pt;}
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
     p {display: inline;}
-    form {position: relative; left: 7px; width: 340px; padding-left: 10px;}
+    form {position: relative; left: 20px; width: 340px; padding-left: 10px;}
     #comment {
         padding-right: 10px;}
     #submit {
