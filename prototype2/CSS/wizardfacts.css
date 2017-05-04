@@ -23,7 +23,7 @@ div {
     background-color: beige;
     position: relative;
     top: 300px;
-    right: 200px;
+    right: 180px;
     color: black;
     padding-left: 50px;
     padding-right: 50px;
@@ -41,7 +41,7 @@ color: white;
     font-size: 20pt;
     position: relative;
     bottom: 200px;
-    right: 200px;
+    right: 220px;
 }
 
 #memes:hover {
@@ -55,9 +55,9 @@ color: white;
     li {display: inline; padding: 5px;}
     nav {width: 100%; padding:1px;}
     #wiki {display: none;}
-    #spells {position: relative; top: 300px; left: 260px;}
+    #spells {position: relative; top: 300px; left: 250px;}
     #memes {
-        position: relative; top: 170px; left: 75px;
+        position: relative; top: 170px; left: 110px;
     }
     body {background-size:auto;}
 }
