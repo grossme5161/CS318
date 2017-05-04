@@ -1,6 +1,7 @@
 body {
     background-image:url(../images/Hogwarts%20Castle%20Wallpaper.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
 }
 
