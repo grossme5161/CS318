@@ -4,15 +4,6 @@ div {
     margin-left: 70px;
 }
 
-#wizard {
-   background-color: beige;
-   position: relative;
-   bottom: 450px;
-   right: 250px;
-   padding: 15px;
-   width: 560px;
-}
-
 #spells {
     background-color: beige;
     position: relative;
@@ -34,7 +25,7 @@ color: white;
     color:black;
     font-size: 20pt;
     position: relative;
-    top: 400px;
+    top: 200px;
     right: 20px;
 }
 
