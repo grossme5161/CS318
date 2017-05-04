@@ -10,7 +10,7 @@
     top: 20px;
     background-color: beige;
     font-size: 32pt;
-    width: 750px;
+    width: 700px;
     font-family: sans-serif;
     border-color: black;
     border-style: dotted;
@@ -21,6 +21,8 @@
     color: blue;
     font-size: 32pt;
     font-family: fantasy;
+    position: relative;
+    right: 50px;
 }
 
 #pottermore:hover {
