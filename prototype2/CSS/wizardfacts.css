@@ -23,7 +23,7 @@ div {
     background-color: beige;
     position: relative;
     top: 300px;
-    right: 180px;
+    right: 200px;
     color: black;
     padding-left: 50px;
     padding-right: 50px;
@@ -41,7 +41,7 @@ color: white;
     font-size: 20pt;
     position: relative;
     bottom: 200px;
-    right: 230px;
+    right: 200px;
 }
 
 #memes:hover {
