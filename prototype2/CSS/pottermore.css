@@ -36,10 +36,6 @@ img {
 }
 
 @media (max-width: 45em) {
-   header {position: static;
-        float: none; font-size: 12pt;}
-    li {display: inline; padding: 5px;}
-    nav {width: 100%; padding:1px;}
     .potter {display: inline;
     position: relative;
     top: 10px;
