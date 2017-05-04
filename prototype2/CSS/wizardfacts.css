@@ -8,7 +8,7 @@ div {
     background-color: beige;
     position: relative;
     top: 400px;
-    right: 450px;
+    right: 550px;
     color: black;
     padding-left: 50px;
     padding-right: 50px;
@@ -26,7 +26,7 @@ color: white;
     font-size: 20pt;
     position: relative;
     top: 200px;
-    left: 150px;
+    left: 250px;
 }
 
 #memes:hover {
