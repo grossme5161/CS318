@@ -38,8 +38,13 @@ img {
     .potter {display: inline;
     position: relative;
     top: 10px;
-    left: 10px;
-    font-size: 20pt;
+    left: 20px;
+    font-size: 16pt;
     border: none;}
     img {display: none;}
+    .pottermore {
+        font-size: 26pt;
+        position: relative;
+        left: 10px;
+    }
     }
