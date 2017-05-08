@@ -37,9 +37,9 @@ color: white;
 }
 
 @media (max-width: 45em) {
-    #spells {position: relative; top: 300px; left: 212px;}
+    #spells {position: relative; top: 360px; left: 0px;}
     #memes {
-        position: relative; top: 170px; left: 110px;
+        position: relative; top: 170px; left: 75px;
     }
     body {background-size:auto;}
 }
