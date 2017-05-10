@@ -6,9 +6,9 @@ div {
 
 #spells {
     background-color: beige;
-    position: relative;
-    top: 400px;
-    left: 600px;
+    position: absolute;
+    top: 250px;
+    right: 600px;
     color: black;
     padding-left: 50px;
     padding-right: 50px;
@@ -25,9 +25,9 @@ div {
     background-color: beige;
     color:black;
     font-size: 28pt;
-    position: relative;
-    top: 200px;
-    left: 130px;
+    position: absolute;
+    top: 350px;
+    left: 300px;
     border: dashed 5pt black;
 }
 
