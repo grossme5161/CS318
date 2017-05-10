@@ -8,7 +8,7 @@ div {
     background-color: beige;
     position: absolute;
     top: 250px;
-    right: 400px;
+    right: 800px;
     color: black;
     padding-left: 50px;
     padding-right: 50px;
@@ -27,7 +27,7 @@ div {
     font-size: 28pt;
     position: absolute;
     top: 350px;
-    left: 300px;
+    left: 400px;
     border: dashed 5pt black;
 }
 
