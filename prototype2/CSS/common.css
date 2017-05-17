@@ -24,6 +24,10 @@ nav {
     float: left;
 }
 
+p {
+    border: dashed 3pt black;
+
+}
 li {
   list-style: none;
   padding-right: 20px;
