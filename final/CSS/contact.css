@@ -17,6 +17,8 @@ form {
     margin-top: 0;
     text-align: center;
     font-size: 40pt;
+    position: relative;
+    right: 40px;
 }
 
 #name {
