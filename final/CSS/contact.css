@@ -1,0 +1,60 @@
+form {
+   background-color: beige;
+   width: 500px;
+   height: 400px;
+   position: relative;
+   left: 130px;
+   top: 50px;
+   display: inline-block;
+   padding: 30px;
+   padding-left: 100px;
+   border-color: black;
+   border-style: dotted;
+   border-width: 5px;
+}
+
+#contact {
+    margin-top: 0;
+    text-align: center;
+    font-size: 40pt;
+}
+
+#name {
+    width: 400px;
+    margin-bottom:5px;
+}
+
+#email {
+    width: 400px;
+    margin-bottom:5px;
+}
+
+#subject{
+    width: 390px;
+    margin-bottom:5px;
+}
+
+#comment {
+    width: 350px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+#submit {
+    position: relative;
+    top: 30px;
+    left: 170px;
+}
+
+@media (max-width: 45em) {
+    p {display: inline;}
+    form {position: relative; left: 20px; width: 340px; padding-left: 10px;}
+    #comment {
+        padding-right: 10px;}
+    #submit {
+        top: 10px;}
+    #contact { font-size: 28pt;}
+    #name {width: 330px;}
+    #email {width: 330px;}
+    #subject {width: 330px;}
+}

@@ -1,0 +1,30 @@
+.events {
+    background-color: beige;
+    margin-left: 260px;
+    width: 600px;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+
+.smom {
+    width: 500px;
+    font-size: 18pt;
+    padding: 20px;
+}
+
+p {
+    background-color: beige;
+    font-family: fantasy;
+    font-size: 28pt;
+    padding: 10px;
+    width: 600px;
+    margin-left:260px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 45em) {
+    .events {position: relative; right: 250px; bottom: 30px; width: 400px;}
+    p{margin-left: 0; width: 100%; padding:0px;}
+    img {width: 300px;}
+    }

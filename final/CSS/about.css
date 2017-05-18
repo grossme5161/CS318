@@ -1,0 +1,48 @@
+#mission {
+    width: 620px;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.about {
+    background-color: beige;
+    margin-left: 260px;
+    width: 410px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    display: block;
+}
+
+p {
+    background-color: beige;
+    font-family: fantasy;
+    font-size: 28pt;
+    padding: 10px;
+    width: 600px;
+    margin-left:300px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.chey {
+    position: relative;
+    left: 510px;
+    bottom: 30px;
+}
+
+.jacob {
+  position: relative;
+    left: 565px;
+    bottom: 30px;  
+}
+
+@media (max-width: 45em) {
+    img {display: none;
+    }
+    .people { display: inline; width: 10px;}
+    p {margin-left: 0; width: 400px; padding:0px; position: relative; top: 20px;}
+    #mission {width: 360px; position: relative; left: 10px; top: 30px; margin-top: 80px;}
+    
+    .about {
+        font-size: 14pt; position: relative; left: 10px;margin-left:10px;}
+    }

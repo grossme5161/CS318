@@ -1,0 +1,45 @@
+div {
+    float: right;
+    margin-top: -300px;
+    margin-left: 70px;
+}
+
+#spells {
+    background-color: beige;
+    position: absolute;
+    top: 250px;
+    right: 415px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 28pt;
+    border: dashed 5pt black;
+}
+
+#spells:hover {
+    background-color: black;
+    color: white;
+}
+
+#memes {
+    background-color: beige;
+    color:black;
+    font-size: 28pt;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border: dashed 5pt black;
+}
+
+#memes:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 45em) {
+    #spells {position: relative; top: 360px; left: 0px;}
+    #memes {
+        position: relative; top: 170px; left: 75px;
+    }
+    body {background-size:auto;}
+}

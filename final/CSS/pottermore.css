@@ -1,0 +1,50 @@
+#quiz {
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+}
+
+.potter {
+    position: relative;
+    left: 250px;
+    top: 20px;
+    background-color: beige;
+    font-size: 32pt;
+    font-family: sans-serif;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.pottermore {
+    color: blue;
+    font-size: 32pt;
+    font-family: fantasy;
+    position: relative;
+    right: 50px;
+}
+
+#pottermore:hover {
+    color: green;
+}
+
+img {
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+@media (max-width: 45em) {
+    .potter {display: inline;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 16pt;
+    border: none;}
+    img {display: none;}
+    .pottermore {
+        font-size: 26pt;
+        position: relative;
+        left: 10px;
+    }
+    }
